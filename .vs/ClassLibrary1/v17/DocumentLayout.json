@@ -1,0 +1,67 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Duztamva\\Desktop\\ClassLibrary1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F1ABD6-BF40-42FA-B670-58AE1A4FABBE}|CaravanDontRest.csproj|d:\\duztamva\\desktop\\classlibrary1\\caravandontrest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F1ABD6-BF40-42FA-B670-58AE1A4FABBE}|CaravanDontRest.csproj|solutionrelative:caravandontrest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Almost There! Fork\\Patches\\CaravanDontRestPatch.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Almost There! Fork\\LoadFolders.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoadFolders.xml",
+              "DocumentMoniker": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Almost There! Fork\\LoadFolders.xml",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Almost There! Fork\\LoadFolders.xml",
+              "ToolTip": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Almost There! Fork\\LoadFolders.xml",
+              "RelativeToolTip": "..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Almost There! Fork\\LoadFolders.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-07-18T13:58:52.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CaravanDontRestPatch.xml",
+              "DocumentMoniker": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Almost There! Fork\\Patches\\CaravanDontRestPatch.xml",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Almost There! Fork\\Patches\\CaravanDontRestPatch.xml",
+              "ToolTip": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Almost There! Fork\\Patches\\CaravanDontRestPatch.xml",
+              "RelativeToolTip": "..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Almost There! Fork\\Patches\\CaravanDontRestPatch.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-07-18T13:27:15.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CaravanDontRest.cs",
+              "DocumentMoniker": "D:\\Duztamva\\Desktop\\ClassLibrary1\\CaravanDontRest.cs",
+              "RelativeDocumentMoniker": "CaravanDontRest.cs",
+              "ToolTip": "D:\\Duztamva\\Desktop\\ClassLibrary1\\CaravanDontRest.cs",
+              "RelativeToolTip": "CaravanDontRest.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T13:13:14.442Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 using RimWorld;
 using RimWorld.Planet;
 using System.Collections.Generic;
+using System.Text;
 using UnityEngine;
 using Vehicles;
 using Verse;
@@ -58,6 +59,25 @@ namespace CaravanDontRest
             }
         }
     }
+
+    [HarmonyPatch(typeof(WorldPathGrid), nameof(WorldPathGrid.CalculatedMovementDifficultyAt))]
+    public static class WorldPathGrid_CalculatedMovementDifficultyAt_Patch
+    {
+        public static float Postfix(float result, PlanetTile tile, bool perceivedStatic, int? ticksAbs, StringBuilder explanation)
+        {
+            if (!CaravanNightRestUtility.WouldBeRestingAt(tile, ticksAbs ?? GenTicks.TicksAbs))
+                return result;
+            if (AlmostThereSettings.NightFactor == 1f)
+                return result;
+            result *= AlmostThereSettings.NightFactor;
+            if (explanation != null)
+            {
+                explanation.AppendLine();
+                explanation.Append("AlmostThereNightFactor".Translate() + ": x" + AlmostThereSettings.NightFactor.ToStringPercent());
+            }
+            return result;
+        }
+    }
     public class AlmostThereMod : Mod
     {
         // Token: 0x06000001 RID: 1 RVA: 0x00002050 File Offset: 0x00000250
@@ -79,6 +99,7 @@ namespace CaravanDontRest
             Listing_Standard listing_Standard = new Listing_Standard();
             listing_Standard.Begin(rect);
             AlmostThereSettings.AlmostThereHours = (int)listing_Standard.SliderLabeled("AlmostThereHours_Title".Translate(AlmostThereSettings.AlmostThereHours), (float)AlmostThereSettings.AlmostThereHours, 0f, 100f, 0.25f, null);
+            AlmostThereSettings.NightFactor = (float)listing_Standard.SliderLabeled("AlmostThereNightFactor_Title".Translate(AlmostThereSettings.NightFactor.ToStringPercent()), (float)AlmostThereSettings.NightFactor, 1f, 3f, 0.25f, null);
             listing_Standard.End();
             base.DoSettingsWindowContents(rect);
         }
@@ -90,10 +111,12 @@ namespace CaravanDontRest
         {
             base.ExposeData();
             Scribe_Values.Look<int>(ref AlmostThereSettings.AlmostThereHours, "AlmostThereHours", 4, false);
+            Scribe_Values.Look<float>(ref AlmostThereSettings.NightFactor, "AlmostThereNightFactor", 1.2f, false);
         }
 
         // Token: 0x04000001 RID: 1
         public static int AlmostThereHours = 4;
+        public static float NightFactor = 1.2f;
     }
 
     public class WorldObjectCompProperties_NightRestControl : WorldObjectCompProperties

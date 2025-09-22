@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!-- Настройки времени "Почти на месте" -->
+    <AlmostThereHours_Title>Почти на месте (часов): {0} часов</AlmostThereHours_Title>
+    <AlmostThereHours_Description>Установите, за сколько часов до цели будет активироваться режим «Почти на месте».</AlmostThereHours_Description>
+
+    <!-- Описание функционала -->
+    <AlmostThereDesc0>Да ладно, ребята, мы почти на месте! При активации этой функции караван не будет останавливаться на отдых, когда до цели останется {0} часов. ВАЖНО: количество часов, считающихся «почти на месте», можно настроить в параметрах мода!</AlmostThereDesc0>
+    <AlmostThereDesc1>Караван не будет останавливаться на ночь. Используйте на свой страх и риск!</AlmostThereDesc1>
+    <AlmostThereDesc2>Игнорировать режим «Почти на месте», двигаться в обычном режиме днём и отдыхать ночью как обычно.</AlmostThereDesc2>
+
+    <!-- Метки режимов -->
+    <AlmostThereLabel0>Почти на месте!</AlmostThereLabel0>
+    <AlmostThereLabel1>Не останавливаться</AlmostThereLabel1>
+    <AlmostThereLabel2>Движение в обычном режиме</AlmostThereLabel2>
+</LanguageData>

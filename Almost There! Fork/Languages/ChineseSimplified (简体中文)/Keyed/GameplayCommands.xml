@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<AlmostThereHours_Title>Almost there 时限: {0} 小时</AlmostThereHours_Title>
+	<AlmostThereHours_Description>设置远行队触发“Almost There”的最大预计抵达时间。</AlmostThereHours_Description>
+	<AlmostThereDesc0>来吧伙计们，咱们就要到了！远行队现在如果预计 {0} 小时内抵达就不会在夜间休息了。注意：您可以在模组设置中配置“Almost There”的时限！</AlmostThereDesc0>
+	<AlmostThereDesc1>远行队现在不会在夜间休息。风险自负！</AlmostThereDesc1>
+	<AlmostThereDesc2>不启用Almost There，在白天正常行进，在夜间正常休息。</AlmostThereDesc2>
+	<AlmostThereLabel0>就要到了</AlmostThereLabel0>
+	<AlmostThereLabel1>禁止休息</AlmostThereLabel1>
+	<AlmostThereLabel2>正常行进</AlmostThereLabel2>
+</LanguageData>

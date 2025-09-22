@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Almost There! Fork</name>
+	<author>Duztamva</author>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>SmashPhil.VehicleFramework</li><!--Vehicle Framework-->
+	</loadAfter>
+	<packageId>duz.almosttherefork</packageId>
+	<description>Cmon guys, we're almost there!
+Nah, it's sleepy time.
+But the colony is literally just one hour away, and Gonzalez really needs the medicines we brought, otherwise he'll die!
+Meh, when it's nap time, it's nap time.
+
+Sounds familiar? Then this mod is for you. It adds a 3-switch to your caravans:
+- "Almost there". when your caravan is only x hours away from its goal, it won't stop for resting.
+- "Never rest". For those that like to have their pawns suffer.
+- "Going Normally". Lets the caravan go and rest like before this mod was here.</description>
+</ModMetaData>

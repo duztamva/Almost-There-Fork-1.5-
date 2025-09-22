@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-	<AlmostThereHours_Title>Almost there hours: {0} hours</AlmostThereHours_Title>
-	<AlmostThereHours_Description>Set how many hours away a target has to be for "Almost there" to trigger.</AlmostThereHours_Description>
+	<AlmostThereHours_Title>Almost There Hours: {0} hours</AlmostThereHours_Title>
+	<AlmostThereNightFactor_Title>Night Factor: {0}</AlmostThereNightFactor_Title>
+	<AlmostThereNightFactor>Traveling At Night</AlmostThereNightFactor>
 	<AlmostThereDesc0>Cmon guys, we're almost there! With this enabled, your caravan won't rest when {0} hours away from its target. NOTE: the number of hours that are considered "almost there" can be configured in the mod settings!</AlmostThereDesc0>
 	<AlmostThereDesc1>Caravan will not rest at night. Use at your own risk!</AlmostThereDesc1>
 	<AlmostThereDesc2>Ignore Almost There, move normally during the day, and rest normally at night.</AlmostThereDesc2>

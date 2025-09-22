@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 	<AlmostThereHours_Title>Almost there 時限: {0} 小時</AlmostThereHours_Title>
-	<AlmostThereHours_Description>設置遠行隊觸發“Almost There”的最大預計抵達時間。</AlmostThereHours_Description>
+	<AlmostThereNightFactor_Title>夜間行進難度係數: {0}</AlmostThereNightFactor_Title>
+	<AlmostThereNightFactor>夜間行進</AlmostThereNightFactor>
 	<AlmostThereDesc0>來吧夥計們，咱們就要到了！遠行隊現在如果預計 {0} 小時內抵達就不會在夜間休息了。注意：您可以在模組設置中配置“Almost There”的時限！</AlmostThereDesc0>
 	<AlmostThereDesc1>遠行隊現在不會在夜間休息。風險自負！</AlmostThereDesc1>
 	<AlmostThereDesc2>不啓用Almost There，在白天正常行進，在夜間正常休息。</AlmostThereDesc2>

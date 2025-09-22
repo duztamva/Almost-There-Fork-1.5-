@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 	<AlmostThereHours_Title>Horarios para "Almost there": {0} horas</AlmostThereHours_Title>
-	<AlmostThereHours_Description>Establece el número de horas a las que se debe estar del objetivo para que se active "Almost there".</AlmostThereHours_Description>
+	<AlmostThereNightFactor_Title>Nivel de dificultad de viaje nocturno: {0}</AlmostThereNightFactor_Title>
+	<AlmostThereNightFactor>viajando de noche</AlmostThereNightFactor>
 	<AlmostThereDesc0>Vamos gente, ¡ya casi llegamos! La caravana no descansará cuando esté a menos de {0} horas de su objetivo. NOTA: el número de horas consideradas por "almost there" debe configurarse en ajustes de mod.</AlmostThereDesc0>
 	<AlmostThereDesc1>La caravane ne reposera plus la nuit. À utiliser à vos risques et périls!</AlmostThereDesc1>
 	<AlmostThereDesc2>Ignorar Almost there, moverse normalmente durante el día y descansar normalmente por la noche</AlmostThereDesc2>

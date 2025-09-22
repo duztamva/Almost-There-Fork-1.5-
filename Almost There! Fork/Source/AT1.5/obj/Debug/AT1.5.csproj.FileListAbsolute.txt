@@ -1,0 +1,12 @@
+D:\Documents\GitHub\Almost-There-Fork-1.5-\Almost There! Fork\Source\AT1.5\bin\Debug\AT1.5.dll
+D:\Documents\GitHub\Almost-There-Fork-1.5-\Almost There! Fork\Source\AT1.5\bin\Debug\AT1.5.pdb
+D:\Documents\GitHub\Almost-There-Fork-1.5-\Almost There! Fork\Source\AT1.5\bin\Debug\0Harmony.dll
+D:\Documents\GitHub\Almost-There-Fork-1.5-\Almost There! Fork\Source\AT1.5\bin\Debug\Assembly-CSharp.dll
+D:\Documents\GitHub\Almost-There-Fork-1.5-\Almost There! Fork\Source\AT1.5\bin\Debug\UnityEngine.CoreModule.dll
+D:\Documents\GitHub\Almost-There-Fork-1.5-\Almost There! Fork\Source\AT1.5\bin\Debug\netstandard.dll
+D:\Documents\GitHub\Almost-There-Fork-1.5-\Almost There! Fork\Source\AT1.5\bin\Debug\UnityEngine.SharedInternalsModule.dll
+D:\Documents\GitHub\Almost-There-Fork-1.5-\Almost There! Fork\Source\AT1.5\obj\Debug\AT1.5.csproj.AssemblyReference.cache
+D:\Documents\GitHub\Almost-There-Fork-1.5-\Almost There! Fork\Source\AT1.5\obj\Debug\AT1.5.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\Almost-There-Fork-1.5-\Almost There! Fork\Source\AT1.5\obj\Debug\AT1.5.csproj.Up2Date
+D:\Documents\GitHub\Almost-There-Fork-1.5-\Almost There! Fork\Source\AT1.5\obj\Debug\AT1.5.dll
+D:\Documents\GitHub\Almost-There-Fork-1.5-\Almost There! Fork\Source\AT1.5\obj\Debug\AT1.5.pdb

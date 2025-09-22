@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 	<AlmostThereHours_Title>Presque arrivé (Heures): {0} heures</AlmostThereHours_Title>
-	<AlmostThereHours_Description>Définissez à quelle distance de la cible en heures "Presque arrivé" doit se déclencher.</AlmostThereHours_Description>
+	<AlmostThereNightFactor_Title>Niveau de difficulté de déplacement de nuit : {0}</AlmostThereNightFactor_Title>
+	<AlmostThereNightFactor>voyager la nuit</AlmostThereNightFactor>
 	<AlmostThereDesc0>Allez les gars, nous y sommes presque! Maintenant, votre caravane ne se reposera pas à {0} heures de son objectif. NOTE: le nombre d'heures considéré comme "presque arrivé" peut être configuré dans les paramètres du mod.</AlmostThereDesc0>
 	<AlmostThereDesc1>La caravane ne reposera plus la nuit. À utiliser à vos risques et périls!</AlmostThereDesc1>
 	<AlmostThereDesc2>Ignorez le Presque Arrivé, voyagez normalement pendant la journée et reposez-vous normalement la nuit.</AlmostThereDesc2>

@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\GitHub\\Almost-There-Fork-1.5-\\Almost There! Fork\\Source\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7526ACB-14BD-4326-B244-055B1126CC0B}|AT1.6\\AT1.6.csproj|d:\\documents\\github\\almost-there-fork-1.5-\\almost there! fork\\source\\at1.6\\at1.6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7526ACB-14BD-4326-B244-055B1126CC0B}|AT1.6\\AT1.6.csproj|solutionrelative:at1.6\\at1.6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0310D67-AFDD-4EDB-9926-71F3704694C6}|AT1.6Vehicle\\AT1.6Vehicle.csproj|D:\\Documents\\GitHub\\Almost-There-Fork-1.5-\\Almost There! Fork\\Source\\at1.6vehicle\\at1.6vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0310D67-AFDD-4EDB-9926-71F3704694C6}|AT1.6Vehicle\\AT1.6Vehicle.csproj|solutionrelative:at1.6vehicle\\at1.6vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27FC7F81-E535-436C-81C4-3826C81C608A}|AT1.5Vehicle\\AT1.5Vehicle.csproj|D:\\Documents\\GitHub\\Almost-There-Fork-1.5-\\Almost There! Fork\\Source\\at1.5vehicle\\at1.5vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27FC7F81-E535-436C-81C4-3826C81C608A}|AT1.5Vehicle\\AT1.5Vehicle.csproj|solutionrelative:at1.5vehicle\\at1.5vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC70989-D877-440B-AA33-E67D41BDB37F}|AT1.5\\AT1.5.csproj|D:\\Documents\\GitHub\\Almost-There-Fork-1.5-\\Almost There! Fork\\Source\\at1.5\\at1.5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC70989-D877-440B-AA33-E67D41BDB37F}|AT1.5\\AT1.5.csproj|solutionrelative:at1.5\\at1.5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AT1.6Vehicle.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\Almost-There-Fork-1.5-\\Almost There! Fork\\Source\\AT1.6Vehicle\\AT1.6Vehicle.cs",
+              "RelativeDocumentMoniker": "AT1.6Vehicle\\AT1.6Vehicle.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\Almost-There-Fork-1.5-\\Almost There! Fork\\Source\\AT1.6Vehicle\\AT1.6Vehicle.cs",
+              "RelativeToolTip": "AT1.6Vehicle\\AT1.6Vehicle.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwC8AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T13:04:38.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AT1.6.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\Almost-There-Fork-1.5-\\Almost There! Fork\\Source\\AT1.6\\AT1.6.cs",
+              "RelativeDocumentMoniker": "AT1.6\\AT1.6.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\Almost-There-Fork-1.5-\\Almost There! Fork\\Source\\AT1.6\\AT1.6.cs",
+              "RelativeToolTip": "AT1.6\\AT1.6.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAiwFwAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T13:04:33.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AT1.5Vehicle.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\Almost-There-Fork-1.5-\\Almost There! Fork\\Source\\AT1.5Vehicle\\AT1.5Vehicle.cs",
+              "RelativeDocumentMoniker": "AT1.5Vehicle\\AT1.5Vehicle.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\Almost-There-Fork-1.5-\\Almost There! Fork\\Source\\AT1.5Vehicle\\AT1.5Vehicle.cs",
+              "RelativeToolTip": "AT1.5Vehicle\\AT1.5Vehicle.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAiwHEAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T13:04:25.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AT1.5.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\Almost-There-Fork-1.5-\\Almost There! Fork\\Source\\AT1.5\\AT1.5.cs",
+              "RelativeDocumentMoniker": "AT1.5\\AT1.5.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\Almost-There-Fork-1.5-\\Almost There! Fork\\Source\\AT1.5\\AT1.5.cs",
+              "RelativeToolTip": "AT1.5\\AT1.5.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAiwGgAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T13:04:09.742Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

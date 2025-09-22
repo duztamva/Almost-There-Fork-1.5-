@@ -2,7 +2,9 @@
 <LanguageData>
     <!-- Настройки времени "Почти на месте" -->
     <AlmostThereHours_Title>Почти на месте (часов): {0} часов</AlmostThereHours_Title>
-    <AlmostThereHours_Description>Установите, за сколько часов до цели будет активироваться режим «Почти на месте».</AlmostThereHours_Description>
+
+	<AlmostThereNightFactor_Title>Коэффициент сложности ночного передвижения: {0}</AlmostThereNightFactor_Title>
+	<AlmostThereNightFactor>Ночной марш</AlmostThereNightFactor>
 
     <!-- Описание функционала -->
     <AlmostThereDesc0>Да ладно, ребята, мы почти на месте! При активации этой функции караван не будет останавливаться на отдых, когда до цели останется {0} часов. ВАЖНО: количество часов, считающихся «почти на месте», можно настроить в параметрах мода!</AlmostThereDesc0>

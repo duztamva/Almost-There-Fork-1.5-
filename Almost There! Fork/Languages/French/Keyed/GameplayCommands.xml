@@ -9,4 +9,6 @@
 	<AlmostThereLabel0>Presque arrivé !</AlmostThereLabel0>
 	<AlmostThereLabel1>Pas de repos</AlmostThereLabel1>
 	<AlmostThereLabel2>Mouvement normal et repos</AlmostThereLabel2>
+	<DefaultCaravanMode_Title>Mode de caravane par défaut</DefaultCaravanMode_Title>
+	<DefaultCaravanMode_Desc>Les caravanes nouvellement créées utiliseront ce mode par défaut. Remarque : les caravanes existantes ne changeront pas de mode lorsque cette option est modifiée.</DefaultCaravanMode_Desc>
 </LanguageData>

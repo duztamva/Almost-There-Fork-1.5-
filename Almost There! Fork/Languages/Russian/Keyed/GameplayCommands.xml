@@ -15,4 +15,6 @@
     <AlmostThereLabel0>Почти на месте!</AlmostThereLabel0>
     <AlmostThereLabel1>Не останавливаться</AlmostThereLabel1>
     <AlmostThereLabel2>Движение в обычном режиме</AlmostThereLabel2>
+	<DefaultCaravanMode_Title>Режим каравана по умолчанию</DefaultCaravanMode_Title>
+	<DefaultCaravanMode_Desc>Вновь созданные караваны будут использовать этот режим по умолчанию. Примечание: существующие караваны не изменят свой режим при изменении этой опции.</DefaultCaravanMode_Desc>
 </LanguageData>

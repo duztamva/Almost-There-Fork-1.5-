@@ -9,4 +9,6 @@
 	<AlmostThereLabel0>就要到了</AlmostThereLabel0>
 	<AlmostThereLabel1>禁止休息</AlmostThereLabel1>
 	<AlmostThereLabel2>正常行进</AlmostThereLabel2>
+	<DefaultCaravanMode_Title>默认远行队模式</DefaultCaravanMode_Title>
+	<DefaultCaravanMode_Desc>新创建的远行队将使用此默认模式，注意，已有的远行队不会由于切换此选项切换模式。</DefaultCaravanMode_Desc>
 </LanguageData>

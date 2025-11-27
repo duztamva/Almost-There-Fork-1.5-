@@ -61,6 +61,20 @@ namespace CaravanDontRest
         }
     }
 
+    // 新添加的补丁：在远行队创建时设置默认模式
+    [HarmonyPatch(typeof(Caravan), nameof(Caravan.PostAdd))]
+    public static class Caravan_PostAdd_Patch
+    {
+        public static void Postfix(Caravan __instance)
+        {
+            var comp = __instance.GetComponent<CompNightRestControl>();
+            if (comp != null && comp.AlmostThere == 0) // 只在初始状态下设置
+            {
+                comp.AlmostThere = AlmostThereSettings.DefaultCaravanMode;
+            }
+        }
+    }
+
     [HarmonyPatch(typeof(WorldPathGrid), nameof(WorldPathGrid.CalculatedMovementDifficultyAt))]
     public static class WorldPathGrid_CalculatedMovementDifficultyAt_Patch
     {
@@ -99,25 +113,52 @@ namespace CaravanDontRest
         {
             Listing_Standard listing_Standard = new Listing_Standard();
             listing_Standard.Begin(rect);
+
+            // 原有的设置
             AlmostThereSettings.AlmostThereHours = (int)listing_Standard.SliderLabeled("AlmostThereHours_Title".Translate(AlmostThereSettings.AlmostThereHours), (float)AlmostThereSettings.AlmostThereHours, 0f, 100f, 0.25f, null);
             AlmostThereSettings.NightFactor = (float)listing_Standard.SliderLabeled("AlmostThereNightFactor_Title".Translate(AlmostThereSettings.NightFactor.ToStringPercent()), (float)AlmostThereSettings.NightFactor, 1f, 4f, 0.25f, null);
+
+            listing_Standard.GapLine();
+
+            // 新添加的默认远行队模式设置
+            listing_Standard.Label("DefaultCaravanMode_Title".Translate());
+            listing_Standard.Gap(4f);
+
+            if (listing_Standard.RadioButton("AlmostThereLabel0".Translate(), AlmostThereSettings.DefaultCaravanMode == 0))
+            {
+                AlmostThereSettings.DefaultCaravanMode = 0;
+            }
+
+            if (listing_Standard.RadioButton("AlmostThereLabel1".Translate(), AlmostThereSettings.DefaultCaravanMode == 1))
+            {
+                AlmostThereSettings.DefaultCaravanMode = 1;
+            }
+
+            if (listing_Standard.RadioButton("AlmostThereLabel2".Translate(), AlmostThereSettings.DefaultCaravanMode == 2))
+            {
+                AlmostThereSettings.DefaultCaravanMode = 2;
+            }
+
+            listing_Standard.Gap(4f);
+            listing_Standard.Label("DefaultCaravanMode_Desc".Translate());
+
             listing_Standard.End();
             base.DoSettingsWindowContents(rect);
         }
     }
     internal class AlmostThereSettings : ModSettings
     {
-        // Token: 0x06000004 RID: 4 RVA: 0x000020E2 File Offset: 0x000002E2
         public override void ExposeData()
         {
             base.ExposeData();
             Scribe_Values.Look<int>(ref AlmostThereSettings.AlmostThereHours, "AlmostThereHours", 4, false);
             Scribe_Values.Look<float>(ref AlmostThereSettings.NightFactor, "AlmostThereNightFactor", 1.0f, false);
+            Scribe_Values.Look<int>(ref AlmostThereSettings.DefaultCaravanMode, "DefaultCaravanMode", 0, false);
         }
 
-        // Token: 0x04000001 RID: 1
         public static int AlmostThereHours = 4;
         public static float NightFactor = 1.0f;
+        public static int DefaultCaravanMode = 0; // 0=几乎到达, 1=不休息, 2=强制休息
     }
 
     public class WorldObjectCompProperties_NightRestControl : WorldObjectCompProperties
